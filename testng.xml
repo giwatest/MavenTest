@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testbaidu" parallel="tests" thread-count="5">
+<test name="test1">
+<classes>
+<class name="cases.TestBaidu"></class>
+<parameter name="url" value="http://www.baidu.com">
+</parameter>
+<parameter name="browser" value="chrome"></parameter>
+
+</classes>
+</test>
+<!-- <test name="test2">
+<classes>
+<class name="cases.TestBaidu2"></class>
+</classes>
+</test>
+ -->
+<listeners>
+<listener class-name="extentx.ExtentTestNGITestListener"></listener>
+</listeners>
+
+</suite>

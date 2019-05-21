@@ -1,0 +1,8 @@
+base\ReadProperties.class
+mail\MyAuthenticator.class
+extentx\ExtentTestNGITestListener.class
+mail\ReadHtml.class
+mail\SendMail.class
+mail\AutoMail.class
+extentx\ExtentManager.class
+mail\MailInfo.class
